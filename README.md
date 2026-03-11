@@ -1,14 +1,13 @@
-# Data-Analysis-Using-SQL
-**Electronics Products Data Analysis using SQL**
+Data Analysis using SQL
+Electronics Products Data Analysis using SQL
+Project Overview
 
-**Project Overview
-**
 This project focuses on analyzing an electronics product dataset containing 6,000+ records using SQL. The goal is to clean, transform, and analyze product data to extract insights about pricing strategies, brand performance, discounts, ratings, and customer reviews.
 
 Using advanced SQL techniques such as feature engineering, statistical analysis, and window functions, the project uncovers patterns and relationships between product attributes across multiple brands and categories.
 
-**Business Problem
-**
+Business Problem
+
 E-commerce platforms contain large volumes of product data including price, discounts, ratings, and reviews. However, raw data often contains inconsistencies and lacks structure for meaningful analysis.
 
 This project aims to:
@@ -23,22 +22,22 @@ Analyze relationships between price, ratings, and customer reviews
 
 Compare performance across multiple brands and product categories
 
-**Dataset Information
-**
+Dataset Information
+
 Total Records: 6,000+ electronics products
 
 Attributes: Product name, price, discount, rating, review count, brand, category, etc.
 
 Brands Covered: 20+ brands across multiple electronics categories
 
-**Tools & Technologies
-**
+Tools & Technologies
+
 SQL
 
 MySQL Workbench
 
-**Key Analysis Performed
-**1. Data Cleaning and Transformation
+Key Analysis Performed
+1. Data Cleaning and Transformation
 
 Processed and standardized 6,000+ product records
 
@@ -56,8 +55,8 @@ TRIM
 
 REGEXP
 
-**2. Feature Engineering
-**
+2. Feature Engineering
+
 Created 6 analytical features to enable deeper analysis, including:
 
 MRP (Maximum Retail Price)
@@ -74,8 +73,8 @@ Brand Extraction
 
 These features enabled structured comparison across 20+ brands.
 
-**3. Exploratory Data Analysis (EDA)
-**
+3. Exploratory Data Analysis (EDA)
+
 Performed exploratory analysis across 10+ attributes, including:
 
 Summary statistics
@@ -86,8 +85,8 @@ Rating distribution across brands
 
 Review count trends
 
-**4. Outlier Detection
-**
+4. Outlier Detection
+
 Applied the IQR (Interquartile Range) method to detect pricing outliers
 
 Identified unusually priced products that deviate from the overall distribution
@@ -124,8 +123,8 @@ Some brands offer aggressive discount strategies compared to competitors
 
 Outlier pricing patterns indicate potential mispriced or premium products
 
-**SQL Concepts Used
-**
+SQL Concepts Used
+
 SQL Joins
 
 Aggregate Functions (AVG, SUM, COUNT)
@@ -156,8 +155,9 @@ Window Functions
 
 Data Transformation
 
-**Future Improvements
-**
+
+Future Improvements
+
 Build a Power BI or Tableau dashboard for product insights
 
 Perform price prediction using machine learning
