@@ -1,5 +1,6 @@
 # Data-Analysis-Using-SQL
 **Electronics Products Data Analysis using SQL**
+
 **Project Overview
 **
 This project focuses on analyzing an electronics product dataset containing 6,000+ records using SQL. The goal is to clean, transform, and analyze product data to extract insights about pricing strategies, brand performance, discounts, ratings, and customer reviews.
